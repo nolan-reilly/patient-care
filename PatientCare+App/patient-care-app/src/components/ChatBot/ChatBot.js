@@ -6,7 +6,7 @@ import Exit from "./exit.png";
 import CloseIcon from '@mui/icons-material/Close';
 
 import { GoogleGenerativeAI } from '@google/generative-ai';
-const API_KEY = "AIzaSyAo0VxaWvwbqiiy8m52pCyFR8i4cepQQsc";
+const API_KEY = "API_KEY";
 
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
