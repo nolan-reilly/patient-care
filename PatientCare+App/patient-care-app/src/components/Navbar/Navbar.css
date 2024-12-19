@@ -1,0 +1,20 @@
+nav {
+    padding: 24px 0px;
+}
+
+.nav-logo-text {
+    font-family: "Righteous", serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-logo-img {
+    width: 48px;
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "role": "Patient",
+    "email": "Test4@gmail.com",
+    "password": "testing4"
+  },
+  {
+    "role": "Patient",
+    "email": "pat1@gmail.com",
+    "password": "pat123"
+  },
+  {
+    "role": "Doctor",
+    "email": "Dr-Micah@2.com",
+    "password": "testing5"
+  },
+  {
+    "role": "Patient",
+    "email": "James@test.com",
+    "password": "1234qwe"
+  },
+  {
+
+    "role": "Doctor",
+    "email": "johnDoe@test.com",
+    "password": "Test12345"
+  }
+]

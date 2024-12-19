@@ -1,0 +1,53 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.buttons {
+    display: flex;
+    gap: 64px;
+    margin-top: 48px;
+}
+
+/* Commented out width and height for buttons considered bad practice to do this
+   especially for globals */
+
+.home-btn {
+    width: 250px;
+    height: 64px;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    font-size: 33.2px;
+}
+
+.hero-content {
+    flex: 0.8;
+}
+
+.hero-img {
+    margin-left: auto;
+}
+
+.page-container {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.wave-background {
+    background-image: url("wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}

@@ -1,0 +1,48 @@
+/* DataCenter.css */
+.data-content {
+    width: 100%;
+    padding: 24px;
+}
+
+.table-container {
+    max-height: 40vh;
+}
+
+.record-card {
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    min-height: 300px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.records-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.record-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.messages-section {
+    flex: 0.75;
+    display: flex;
+    flex-direction: column;
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.message-item {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.02);
+}

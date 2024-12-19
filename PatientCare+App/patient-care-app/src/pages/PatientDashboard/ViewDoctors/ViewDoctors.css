@@ -1,0 +1,48 @@
+.doctors-content {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    padding: 24px;
+}
+
+.doctor-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.doctor-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.doctor-card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.doctor-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.doctor-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.underline {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}

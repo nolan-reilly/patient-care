@@ -1,0 +1,111 @@
+.patient-home-card {
+    background-color: white;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 24px;
+}
+
+.patient-home-card:hover {
+    transform: translateY(-4px) scale(1.005);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.time-range-buttons button {
+    padding: 6px 12px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    background: none;
+}
+
+.health-index-score {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.analytics-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hi-score-view {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.time-range-buttons .MuiToggleButtonGroup-root {
+    background-color: white;
+}
+
+.time-range-buttons .MuiToggleButton-root {
+    border: none;
+    color: black;
+}
+
+.metric-statistics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.metric-card {
+    background-color: white;
+    border-radius: 8px;
+    width: 47%;
+    padding: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-4px) scale(1.005);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.metric-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.metric-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.metric-info h5 {
+    font-size: 14px;
+    margin: 0;
+}
+
+@keyframes shake {
+    0%, 100% { transform: scale(1) rotate(0deg); }
+    20% { transform: scale(1.2) rotate(-10deg); }
+    40% { transform: scale(1.2) rotate(5deg); }
+    60% { transform: scale(1.2) rotate(-5deg); }
+    80% { transform: scale(1.2) rotate(10deg); }
+}
+
+.shake-animation {
+    animation: shake 1s ease-in-out infinite;
+}

@@ -1,0 +1,20 @@
+.register-blob-bg {
+    background-image: url("./green-blob-scene.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.register-btn-group {
+    width: 100%;
+}
+
+.register-toggle-choice {
+    flex: 1;
+}

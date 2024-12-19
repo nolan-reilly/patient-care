@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container-sm {
+  width: 30%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+/* Dashboard Styling Important section */
+.dashboard-bg {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+}
+
+.dashboard-container {
+  display: flex;
+  gap: 25px;
+  padding: 22px 48px;
+  margin-left: 225px;
+}
+
+.graph-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 24px;
+  color: #0F248D;
+  opacity: 0.8;
+}
+
+.underline {
+  width: 100%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+  padding-bottom: 4px;
+  margin-bottom: 16px;
+}
+
+.gap-48 {
+  gap: 48px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+/* Widths */
+.full-height {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+
+/* Buttons */
+.md-btn {
+  width: 50%;
+}
+
+/* Card Styling */
+.card {
+  text-align: center;
+  width: 100%;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2), 0px 6px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.full-height {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-icon {
+  align-self: center;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card-btn {
+  width: 100%;
+}
+
+/* Basic margin styling to separate sections */
+.mt-xlg {
+  margin-top: 196px;
+}
+
+.mt-lg {
+  margin-top: 128px;
+}
+
+.mt-md {
+  margin-top: 96px;
+}
+
+.mt-sm {
+  margin-top: 64px;
+}
+
+.mb-lg {
+  margin-bottom: 128px;
+}
+
+.mb-sm {
+  margin-bottom: 48px;
+}
+
+.flip {
+  transform: rotate(180deg);
+}

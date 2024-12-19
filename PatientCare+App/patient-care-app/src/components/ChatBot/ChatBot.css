@@ -1,0 +1,121 @@
+.chat-circle {
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    box-shadow: 0 3px 8px rgba(65, 65, 65, 0.5);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.chat-circle:hover {
+    transform: scale(1.05);
+}
+
+.chatbot-icon {
+    width: 75%;
+    color: black;
+}
+
+.chat-container {
+    z-index: 1000;
+    position: relative;
+    width: 400px;
+    height: 350px;
+    background-color: rgb(240, 240, 240);
+    border: rgba(0, 0, 0, 0.15) 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation: slideIn 0.3s ease-out;
+}
+
+/* Class for opening the chat container */
+.chat-container.open {
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.typewriter-text {
+    white-space: pre-line;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.chat-output {
+    flex-grow: 1;
+    text-align: left;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-y: auto;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.close-button {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    background-color: rgb(240, 240, 240);
+    border: none;
+}
+
+.exit-icon {
+    width: 80%;
+}
+
+.analyze-btn {
+    background-color: black;
+    color: white;
+    padding: 12px 0px;
+    margin-top: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

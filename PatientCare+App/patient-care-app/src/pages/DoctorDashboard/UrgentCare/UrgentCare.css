@@ -1,0 +1,37 @@
+.urgent-care-card {
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.urgent-care-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.table-section {
+    margin-top: 24px;
+}
+
+.urgent-care-input {
+    flex: 1;
+}
+
+.urgent-button {
+    flex: 1;
+    height: 48px;
+    min-width: 120px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.button-container {
+    display: flex;
+    width: 100%;
+    gap: 12px;
+    margin-top: 24px;
+}

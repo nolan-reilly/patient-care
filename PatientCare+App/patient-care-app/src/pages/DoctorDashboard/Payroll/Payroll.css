@@ -1,0 +1,27 @@
+.payroll-card {
+    flex: 1;
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.payroll-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.earnings-card {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
+
+.earnings-card > div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
